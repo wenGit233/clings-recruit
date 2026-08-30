@@ -1,6 +1,6 @@
 /*
  * Lesson 02a: printf 打印输出
- *
+ *exercises/02_hello_world_printf/02a_hello_printf.cexercises/02_hello_world_printf/02a_hello_printf.c
  * 知识点：预处理符 #, 头文件 stdio.h, printf 函数，字符串常量，转义字符 \n
  *
  * 任务：写一个完整的程序，包含：
@@ -13,4 +13,9 @@
  * 验证：stdout 精确匹配 "hello, world.\n"
  */
 
-#error TODO: Fix this exercise. Run "clings hint" for help.
+#include<stdio.h>
+int main()
+{
+printf("hello, world.\n");
+return 0;
+}
