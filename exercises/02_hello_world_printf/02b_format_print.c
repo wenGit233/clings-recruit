@@ -21,6 +21,6 @@ int global=200;
 int main(void) {
 int local=100;
 printf("local = %d\n",local);
-printf("global = %x\n"global);
+printf("global = 0x%x\n",global);
     return 0;
 }

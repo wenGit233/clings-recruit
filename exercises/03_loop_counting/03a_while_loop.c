@@ -9,14 +9,18 @@
  *       3. 每次循环：先 counter++，再 printf("counter = %d\n", counter)
  *
  * 课堂讨论：第 1 种和第 2 种写法 (先++后打印 vs 先打印后++)，哪种更好？
- *
+ *先++的从1到10更好，先打印从0到9
  * 验证：stdout 精确匹配 10 行 "counter = 1\n" ... "counter = 10\n"
  */
 
 #include <stdio.h>
 
 int main(void) {
-#error TODO: Fix this exercise. Run "clings hint" for help.
-
+int counter=0;
+while(counter<10)
+{
+counter++;
+printf("counter = %d\n",counter);
+}
     return 0;
 }
